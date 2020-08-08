@@ -2,6 +2,7 @@
 	"name": "typescript-react-dummy-project",
 	"version": "1.0.0",
 	"description": "this is my personal initial configuration of Typescript React project ",
+	"main": "src/app.ts",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/KZTN/Typescript-React-Dummy-Project.git"
