@@ -1,8 +1,11 @@
 {
 	"name": "typescript-react-dummy-project",
 	"version": "1.0.0",
-	"description": "",
-	"main": "js/app.js",
+	"description": "this is my personal initial configuration of Typescript React project ",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KZTN/Typescript-React-Dummy-Project.git"
+	},	
 	"scripts": {
 		"start": "tsc && node js/app.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +13,8 @@
 		"compile-watch": "sudo yarn tsc --p tsconfig.json -w"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "KZTN",
+	"license": "MIT",
 	"devDependencies": {
 		"@types/express": "^4.17.2",
 		"nodemon": "^2.0.1",
