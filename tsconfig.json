@@ -1,23 +1,26 @@
 {
   "compilerOptions": {
 	"target": "es6",
-        "outDir": "js",
-        "noEmitOnError": true, 
-        "noImplicitAny": true,
-        "removeComments": true,
-        "module": "commonjs",
-        "strictNullChecks": true,
-		"inlineSourceMap": true,
-		"experimentalDecorators": true,
-        "sourceMap": false,
-		"skipLibCheck": true,
-		"types": [
-            "node"
-        ],
-        "typeRoots": [
-            "node_modules/@types"
-		],
-		"baseUrl": ".",
+  "outDir": "./dist",
+  "rootDir": "./src",
+  "noEmitOnError": true,
+  "noImplicitAny": true,
+  "removeComments": true,
+  "module": "commonjs",
+  "strict": true,
+  "strictNullChecks": true,
+	"inlineSourceMap": true,
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+  "sourceMap": false,
+	"skipLibCheck": true,
+	"types": [
+    "node"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+	],
+	"baseUrl": "./src",
   },
   "lib": ["es2015"]
 }

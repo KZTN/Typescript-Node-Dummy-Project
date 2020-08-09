@@ -1,14 +1,21 @@
 import * as express from 'express'
 
-const app = express()
-const port = 3000
-app.get('/', (req, res) => {
-	res.send('Hello World')
-})
+class App {
+	private server: express.Application;
 
-app.listen(port, err => {
-	if (err) {
-		return console.error(err);
+	constructor() {
+		this.server = express();
+		this.middlewares;
 	}
-	return console.log(`Backend is listening on ${port}`)
-})
+
+	middlewares() {
+		this.server.use(express.json());
+	}
+
+	public getServer() {
+		return this.server;
+	}
+	
+}
+
+export default new App();
