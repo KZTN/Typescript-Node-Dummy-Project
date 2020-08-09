@@ -10,5 +10,5 @@ app.listen(port, err => {
 	if (err) {
 		return console.error(err);
 	}
-	return console.log(`Salesfy Challenge Backend is listening on ${port}`)
+	return console.log(`Backend is listening on ${port}`)
 })
