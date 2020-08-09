@@ -1,11 +1,11 @@
 {
-	"name": "typescript-react-dummy-project",
+	"name": "typescript-node-dummy-project",
 	"version": "1.0.0",
-	"description": "this is my personal initial configuration of Typescript React project ",
+	"description": "this is my personal initial configuration of Typescript Node project ",
 	"main": "src/app.ts",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/KZTN/Typescript-React-Dummy-Project.git"
+		"url": "https://github.com/KZTN/Typescript-Node-Dummy-Project.git"
 	},	
 	"scripts": {
 		"start": "tsc && node js/app.js",
